@@ -1,0 +1,209 @@
+name: map_assignment
+description: map
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.6
+  shared_preferences: ^2.2.2
+
+  #secure storage
+  flutter_secure_storage: ^9.0.0
+
+  # Drift Database
+  drift: ^2.13.0
+  sqlite3_flutter_libs: ^0.5.17
+
+  # NoSQL storage
+  hive: ^2.2.3
+
+  # Manges Permissions
+  permission_handler: ^11.0.1
+
+  #device security based authentication
+  local_auth: ^2.1.7
+
+  #to open desired app settings
+  app_settings: ^5.1.1
+
+  #triggers local notifications
+  flutter_local_notifications: ^16.1.0
+
+  #for local notification zoned schedule
+  flutter_native_timezone_updated_gradle: ^2.0.3
+
+  #Access SVG icons
+  flutter_svg: ^2.0.7
+
+  # Rive Animation
+  rive: ^0.9.1
+
+  # Lock mechanism
+  synchronized: ^3.1.0
+
+  # Network Reachability
+  connectivity_plus: ^5.0.1
+
+  device_info_plus: ^9.1.0
+  package_info_plus: ^4.2.0
+  mime: ^1.0.4
+
+  collection: ^1.17.2
+
+  # Image Cacher
+  cached_network_image: ^3.3.0
+
+  # File / Directory related plugins
+  path_provider: ^2.1.1
+  path: ^1.8.3
+
+  # open any file in system app
+  open_file_safe: ^3.2.3
+  #  open_file: ^3.2.1
+
+  # Url Launcher
+  url_launcher: ^6.1.14
+
+  # Localization
+  flutter_localizations:
+    sdk: flutter
+  intl: ^0.19.0
+
+  # Firebase
+  firebase_core: ^2.17.0
+  firebase_core_desktop: ^1.0.2
+  firebase_crashlytics: ^3.3.7
+  firebase_analytics: ^10.5.1
+  firebase_remote_config: ^4.2.7
+  firebase_messaging: ^14.6.9
+  firebase_database: ^10.2.7
+  firebase_dynamic_links: ^5.3.7
+
+  googleapis_auth: ^1.4.1
+
+  pin_code_fields: ^8.0.1
+
+  geolocator: ^7.6.2
+
+  # Networking
+  http: ^1.1.0
+  dio: ^5.3.3
+
+  # OpenId connect
+  oauth2: ^2.0.2
+
+  # bloc Pattern
+  bloc: ^8.1.2
+  flutter_bloc: ^8.1.3
+  provider: ^6.0.5
+
+  image_picker: ^1.0.4
+  flutter_document_picker: ^5.2.3
+
+  pull_to_refresh: ^2.0.0
+
+  # Useful for Reactive Programming
+  rxdart: ^0.27.7
+
+  webview_flutter: ^4.4.1
+  webview_flutter_android: ^3.12.1
+
+  # for creating unique ids
+  uuid: ^4.1.0
+
+  file_selector: ^1.0.1
+
+  flutter_native_splash: ^2.3.4
+
+  google_maps_flutter: ^2.10.0
+
+dependency_overrides:
+  ffi: ^2.1.0
+  http: ^1.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  lint: ^2.1.2
+  drift_dev: ^2.13.0
+  build_runner: ^2.4.6
+  mockito: ^5.4.2
+  flutter_launcher_icons: ^0.13.1
+
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^3.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
+    - assets/images/
+
+  fonts:
+    - family: Roboto
+      fonts:
+        - asset: fonts/Roboto/Roboto-Thin.ttf
+          weight: 100
+        - asset: fonts/Roboto/Roboto-Light.ttf
+          weight: 300
+        - asset: fonts/Roboto/Roboto-Regular.ttf
+          weight: 400
+        - asset: fonts/Roboto/Roboto-Medium.ttf
+          weight: 500
+        - asset: fonts/Roboto/Roboto-Bold.ttf
+          weight: 700
+        - asset: fonts/Roboto/Roboto-Black.ttf
+          weight: 900
+flutter_intl:
+  enabled: true
+
+#flutter_native_splash:
+#  color: "#0097C4"
+#  android: true
+#  ios: true
+
+#flutter_launcher_icons:
+#  android: false
+#  ios: true
+#  image_path: "assets/images/ic_app_launch.png"
+#  remove_alpha_ios: true
