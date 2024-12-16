@@ -84,12 +84,10 @@ class _LoginPageState extends BaseState<LoginPage> {
     return Stack(
       fit: StackFit.expand,
       children: [
-        Expanded(
-          child: Positioned(
-            child: Image.asset(
-              AppIcons.kLoginBg,
-              fit: BoxFit.cover,
-            ),
+        Positioned(
+          child: Image.asset(
+            AppIcons.kLoginBg,
+            fit: BoxFit.cover,
           ),
         ),
         Positioned.fill(
