@@ -9,7 +9,8 @@ In the application I have created three pages
   8. All the field are filled then only we can able to create a profile
   9. Once creation done the app bar name changed into profile
   10. If you want edit the profile ,In the app bar edit button is there.
-  11. After tapping we can able to edit the fields and updare the profile .
+  11. without clicking edit all the fields are not editable
+  12. After tapping we can able to edit the fields and updare the profile .
 
 Approch :
 1. BLOC architucture
@@ -19,10 +20,11 @@ Approch :
 
 
 Screen shots
+![Media](https://github.com/user-attachments/assets/f982d4c9-df4f-4171-9cb1-b4eff7897b8d)
 ![Media (1)](https://github.com/user-attachments/assets/c5b238a9-44bf-4b97-af57-f426a2906c9d)
 ![Media (2)](https://github.com/user-attachments/assets/69449e59-57c1-4b7e-bd2b-c364345df96b)
 ![Media (3)](https://github.com/user-attachments/assets/21ccc272-27a6-4407-b1ea-e72710ce3ce3)
 ![Media (4)](https://github.com/user-attachments/assets/6e550ea1-7f74-4bba-af51-433f69f0008b)
 ![Media (5)](https://github.com/user-attachments/assets/903ebcc4-3528-4acb-bc33-55cbd0a8c387)
 ![Media (6)](https://github.com/user-attachments/assets/a66677de-40ed-4de8-881f-390114c6e882)
-![Media](https://github.com/user-attachments/assets/f982d4c9-df4f-4171-9cb1-b4eff7897b8d)
+
